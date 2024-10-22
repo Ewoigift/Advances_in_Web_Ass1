@@ -1,0 +1,52 @@
+body {
+    background-color: black; /* Black background for all pages */
+    font-size: 26px; /* Font size of 26px */
+    font-family: Tahoma, sans-serif; /* Font family Tahoma */
+    color: white; /* Text color is white */
+  }
+
+  h1 {
+    color: green; /* H1 color is green */
+  }
+
+  p {
+    margin-left: 50px; /* Paragraph margin-left 50px */
+  }
+
+  hr {
+    color: yellow;
+    background-color: yellow;
+    height: 2px; /* Horizontal rule is yellow */
+  }
+
+  /* Link button styling */
+  a {
+    color: blue; /* Blue color for unvisited links */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+  }
+
+  a:visited {
+    color: green; /* Green color for visited links */
+    border-color: green;
+  }
+
+  a:hover {
+    background-color: #333; /* Hover effect */
+  }
+
+  a:active {
+    background-color: darkgreen; /* Active link state */
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #A4B5C4; /* Mviringo's soft blue-gray */
+    font-size: 20px;
+  } 
